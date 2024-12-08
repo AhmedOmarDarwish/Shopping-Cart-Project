@@ -8,13 +8,13 @@ namespace ShoppingCartProject
 {
     internal struct Products
     {
-        private string _productName { get; set; }
-        private double _productPrice { get; set; }
+        private string _productName;
+        private double _productPrice;
 
-        public Products(string productName, double productPrice )
+        public Products(string productName, double productPrice)
         {
-            _productName = productName;
-            _productPrice = productPrice;
+            ProductName = productName;
+            ProductPrice = productPrice;
         }
 
         public string ProductName
