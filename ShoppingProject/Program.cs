@@ -1,5 +1,5 @@
 ﻿
-namespace ShoppingProject
+namespace ShoppingCartProject
 {
     internal class Program
     {
